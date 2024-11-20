@@ -1,0 +1,51 @@
+.flight-notification-container {
+    text-align: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 400px;
+    padding: 20px 10px;
+    margin: 250px 550px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color: black;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+button:hover {
+   background-color: #0056b3;
+}
+  
+p {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+}  

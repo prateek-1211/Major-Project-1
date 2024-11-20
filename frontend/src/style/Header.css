@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 5rem;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+    background-color: white; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 10; 
+    margin: auto; 
+    border-width: 1px;
+}
+
+@media (min-width: 640px) {
+    .header {
+        padding-left: 4rem; 
+        padding-right: 4rem; 
+    }
+}
+
+.header .logo {
+    display: flex; 
+    align-items: center; 
+}
+
+.header .logo img {
+    height: 4.5rem; 
+    width: 4.5rem;
+    margin-right: 1rem; 
+}
+
+.header .logo h1 {
+    font-size: 1.25rem; 
+    font-weight: bold; 
+}
+
+@media (min-width: 640px) {
+    .header .logo h1 {
+        font-size: 1.5rem; 
+    }
+}
+
+.header .menu {
+    display: none; 
+}
+
+@media (min-width: 640px) { 
+    .header .menu {
+        display: flex; 
+        gap: 1.5rem; 
+    }
+}
+
+.header .menu a {
+    transition: color 0.3s ease;
+}
+
+.header .menu a:hover {
+    color: #ed8936; 
+    cursor: pointer; 
+}
+
+.header .mobile-menu button {
+    border-radius: 30px;
+    height: 50px;
+    width: 70px;
+    display: block; 
+    transition: all 0.3s ease; 
+}
+
+.header .signup-menu button {
+    border-radius: 30px;
+    height: 50px;
+    width: 90px;
+    display: block; 
+    transition: all 0.3s ease; 
+}

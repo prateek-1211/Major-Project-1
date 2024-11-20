@@ -1,0 +1,69 @@
+/* FlightBookingPage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flight-booking-container {
+  background-image: url('../assets/image6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.flight-booking-container, .h1{
+  text-align: center;
+  color: red;
+}
+.booking-form,
+.available-flights,
+.selected-flight,
+.booking-confirmation {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.booking-form input,
+.booking-form button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.booking-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.available-flights ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.available-flights li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.selected-flight button,
+.available-flights button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: rgba(255, 255, 255, 0.9);
+  border: none;
+  cursor: pointer;
+}

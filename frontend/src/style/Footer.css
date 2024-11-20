@@ -1,0 +1,36 @@
+.footer {
+    background-color: rgb(27, 27, 109);
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+    color: white;
+}
+
+.footer-first {
+    margin-bottom: 1rem;
+}
+
+.footer-first h3 {
+    margin: 0;
+}
+
+.footer-second {
+    margin-bottom: 1rem;
+}
+
+.footer-second ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-second ul li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.footer-rights {
+    font-size: 0.875rem;
+    color: white;
+}
